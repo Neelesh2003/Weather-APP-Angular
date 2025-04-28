@@ -1,0 +1,79 @@
+.weather-container {
+    background: linear-gradient(135deg, #6e00ff, #b700ff);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+  }
+  
+  .search-bar {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    border-radius: 20px 0 0 20px;
+    border: none;
+    width: 200px;
+    outline: none;
+  }
+  
+  .search-bar button {
+    padding: 10px 20px;
+    border-radius: 0 20px 20px 0;
+    border: none;
+    background-color: #00ff88;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .weather-card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    width: 300px;
+    border-radius: 30px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  }
+  
+  .top-section {
+    margin-bottom: 20px;
+  }
+  
+  .city-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .temperature {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+  .middle-section {
+    margin-left: 32%;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .house-image {
+    width: 100%;
+  }
+  
+  .bottom-section {
+    margin-top: 20px;
+  }
+  
+  .detail {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
